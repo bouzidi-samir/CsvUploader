@@ -1,0 +1,15 @@
+<div class="csv-container">
+
+    <div  class="upload-form">
+        <div class="dragdrop-zone" >
+            <img src="assets/telechargement.png" >
+            <input 
+                [accept]="'.csv'"
+                type="file"
+                class="file"
+                (change)="importDataFromCSV($event)"
+            />
+        </div>
+    </div>
+
+</div>
